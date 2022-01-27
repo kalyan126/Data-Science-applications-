@@ -1,0 +1,23 @@
+Assignments
+1.Take five different samples of Gutenberg digital booksfive different authorsthe same genres     semantically the same
+2.Separate and set aside unbiased random partitions TrainingValidationTesting
+3.objective is to produce classification predictions and compare them
+4.decide the champion model.
+5. play with the features and other factors that provide you with leverages to make it harder for the model to predict and bring the accuracy down for about 20% 
+and then check the bias and variability.Details:Prepare the data: create random samples of 200 documents of each book, representative of the source input.
+Prepare the records of 100 words records for each document, label them as a, b and c etc. as per the book they belong to.
+Preprocess the data: remove stop-words and garbage characters if needed.   
+Ex: 700 words - that are not being usedTransform to BOW, and TF-IDF, n-gram, (LDA, word-embedding, optional) etc.  
+-Feature Engineering         1. Text to Bag of Words -> https://www.mygreatlearning.com/blog/bag-of-words/         
+2. TF-iDF -> Term Frequency — Inverse Document Frequency        https://towardsdatascience.com/tf-idf-for-document-ranking-from-scratch-in-python-on-real-world-dataset-796d339a4089    
+3. N-Grams    
+4. LDA - Latent Dirichlet Allocation(LDA) -> https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0        
+Train a machine that can tell which author (or genre), when asked!     SVM, Decision Tree, k-Nearest Neighbor, (BERT, Deep-learning optional)       
+1.SVM -> Support Vector Machine -> https://towardsdatascience.com/support-vector-machine-python-example-d67d9b63f1c8-> https://stackabuse.com/implementing-svm-and-kernel-svm-with-pythons-scikit-learn/       
+2. K-Nearest  neighbours
+-> https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/       
+->https://www.geeksforgeeks.org/implementation-k-nearest-neighbors/?ref=lbp3. 
+BERT (Bidirectional Encoder Representations from Transformers) -> https://www.analyticsvidhya.com/blog/2019/09/demystifying-bert-groundbreaking-nlp-framework/->https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/Evaluation: Do ten-fold cross-validation.Perform Error-Analysis: Identity what were the characteristics of the instance records that threw the machine off.Document your steps, explain the results effectively, using graphs.Verify and validate your programs; Make sure your programs run without syntax or logical errors.Massage the data: Reduce the number of words per document if the accuracy is too high and then repeat the above steps.Overall Program - https://towardsdatascience.com/a-machine-learning-approach-to-author-identification-of-horror-novels-from-text-snippets-3f1ef5dba634https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+An Introduction to Bag of Words (BoW) | What is Bag of Words?
+What is Bag of Words (BoW): Bag of Words is a Natural Language Processing technique of text modeling which is used to extract features from text to train a machine learning model.
+
